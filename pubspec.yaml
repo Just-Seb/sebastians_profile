@@ -1,0 +1,35 @@
+name: i_am_rich
+description: A new Flutter application.
+
+version: 2.2.2
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+  fonts:
+    - family: Barcode
+      fonts:
+        - asset: fonts/LibreBarcode39-Regular.ttf
+
+    - family: Arcade
+      fonts:
+        - asset: fonts/PressStart2P-Regular.ttf
+
+    - family: SpaceMono
+      fonts:
+        - asset: fonts/SpaceMono-Regular.ttf
